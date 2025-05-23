@@ -45,10 +45,9 @@ img {
 }
 
 .container {
-    width: 1128px;
+    width: 1158px;
     margin: 0 auto;
-    padding-left: 156px;
-    padding-right: 156px;
+    padding: 0 15px;
 }
 
 
@@ -56,6 +55,7 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -94,6 +94,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .navigation-link:hover,
@@ -139,6 +140,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 188px 0;
 }
 
 .solutions-title {
@@ -149,6 +151,7 @@ img {
     text-align: center;
     color: #fff;
     margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .solutions-button {
@@ -169,6 +172,10 @@ img {
     align-items: center;
     justify-content: center;
     white-space: nowrap;
+
+    display: block;
+    min-width: 169px;
+    border: none;
 }
 
 .solutions button:hover,
@@ -177,6 +184,19 @@ img {
 }
 
 /* features */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    overflow: hidden;
+}
+
 .features-list {
     display: flex;
     gap: 24px;
@@ -214,6 +234,7 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .our-team-list {
@@ -222,7 +243,6 @@ img {
     column-gap: 24px;
     row-gap: 24px;
     flex-wrap: nowrap;
-    margin-top: 72px;
     padding: 0;
     list-style: none;
 }
@@ -233,7 +253,7 @@ img {
         0 1px 1px 0 rgba(46, 47, 66, 0.16),
         0 1px 6px 0 rgba(46, 47, 66, 0.08);
     border-radius: 0 0 4px 4px;
-    width: 264px;
+    width: calc((100% - 72px) / 4);
     flex: 0 0 auto;
 }
 
@@ -243,7 +263,7 @@ img {
 }
 
 .person-description {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-person-title {
@@ -263,7 +283,6 @@ img {
 }
 
 /* our-portfolio */
-
 .our-portfolio-title {
     color: #2e2f42;
     font-weight: 700;
@@ -272,10 +291,10 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .portfolio {
-    margin-top: 72px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
@@ -295,7 +314,7 @@ img {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    padding: 32px 0 32px 16px;
+    padding: 32px 16px;
 }
 
 .portfolio-title {
@@ -316,6 +335,12 @@ img {
 /* footer */
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
