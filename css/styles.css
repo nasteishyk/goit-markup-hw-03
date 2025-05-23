@@ -39,6 +39,11 @@ img {
     display: block;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .container {
     width: 1128px;
     margin: 0 auto;
@@ -172,11 +177,6 @@ img {
 }
 
 /* features */
-.features {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
 .features-list {
     display: flex;
     gap: 24px;
@@ -204,8 +204,6 @@ img {
 /* our-team */
 .our-team {
     background-color: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
     text-align: center;
 }
 
@@ -265,10 +263,6 @@ img {
 }
 
 /* our-portfolio */
-.our-portfolio-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
 .our-portfolio-title {
     color: #2e2f42;
