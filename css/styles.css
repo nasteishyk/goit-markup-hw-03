@@ -64,8 +64,6 @@ img {
 .header-nav {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .logo {
@@ -94,6 +92,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
     padding: 24px 0;
 }
 
@@ -173,7 +172,6 @@ img {
     justify-content: center;
     white-space: nowrap;
 
-    display: block;
     min-width: 169px;
     border: none;
 }
